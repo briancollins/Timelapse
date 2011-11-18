@@ -1,0 +1,348 @@
+TTimelapse
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Timelapse.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Info.plist Timelapse/Timelapse-Info.plist
+cProcessPCH /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch.pth Timelapse/Timelapse-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/main.o /Users/briancollins/Projects/Timelapse/Timelapse/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLAppDelegate.o /Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLMainViewController.o /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLCaptureController.o /Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse normal armv7
+cGenerateDSYMFile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app.dSYM /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse
+cCopyStringsFile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/en.lproj/InfoPlist.strings Timelapse/en.lproj/InfoPlist.strings
+cCompileXIB /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.xib
+cProcessProductPackaging "/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision" /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision" /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision
+cTouch /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent
+cCodeSign /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004EA9D7920000000000000110
+t1319753618
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004E7807DB000000000015F8A0
+t1316489179
+s1439904
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004E78069100000000000748C0
+t1316488849
+s477376
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004E72F744000000000001A9B0
+t1316157252
+s108976
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision
+c000000004E9A66BD0000000000001C74
+t1318741693
+s7284
+
+N/Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m
+c000000004EC4848B0000000000000294
+t1321501835
+s660
+
+N/Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.m
+c000000004EC491410000000000000995
+t1321505089
+s2453
+
+N/Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m
+c000000004EC490BE0000000000000587
+t1321504958
+s1415
+
+N/Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.xib
+c000000004EC48CC40000000000003445
+t1321503940
+s13381
+
+N/Users/briancollins/Projects/Timelapse/Timelapse/Timelapse-Prefix.pch
+c000000004EC482720000000000000141
+t1321501298
+s321
+
+N/Users/briancollins/Projects/Timelapse/Timelapse/en.lproj/InfoPlist.strings
+c000000004EC48272000000000000002D
+t1321501298
+s45
+
+N/Users/briancollins/Projects/Timelapse/Timelapse/main.m
+c000000004EC48272000000000000015F
+t1321501298
+s351
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app.dSYM
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Info.plist
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/PkgInfo
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/ResourceRules.plist
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/TLMainViewController.nib
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLAppDelegate.o
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLCaptureController.o
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLMainViewController.o
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/Timelapse.LinkFileList
+c000000004EC4914E0000000000000208
+t1321505102
+s520
+
+N/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent
+t2
+s0
+
+N/var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch.pth
+t2
+s0
+
+NTimelapse/Timelapse-Info.plist
+c000000004EC4895E000000000000044A
+t1321503070
+s1098
+
+CBuild AST from /Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m
+r0
+
+CBuild AST from /Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.m
+r0
+
+CBuild AST from /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m
+r0
+
+CBuild AST from /Users/briancollins/Projects/Timelapse/Timelapse/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7e18c5cec874b441^fc39ddcec874b441^-248"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Adam Maddox (Z6K37Z3C5D)', 'iPhone Developer: John Phan (TC5QW9Q82W)' -- 'iPhone Developer: Adam Maddox (Z6K37Z3C5D)' will be used.1(21%IDEActivityLogMessage2@240"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Adam Maddox (Z6K37Z3C5D)', 'iPhone Developer: John Phan (TC5QW9Q82W)' -- 'iPhone Developer: Adam Maddox (Z6K37Z3C5D)' will be used.-343197902#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies36"EA948145-5CA2-4D1B-A608-455EC80327E1-
+
+CCodeSign /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app
+s343197904.294468
+e343197904.515563
+r1
+xCodeSign
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Debug-iphoneos/Timelapse.app3f724bd0c874b441^44fc83d0c874b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/0000000000000000^708"CodeSign build/Debug-iphoneos/Timelapse.app    cd /Users/briancollins/Projects/Timelapse    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Adam Maddox (Z6K37Z3C5D)" --resource-rules=/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/ResourceRules.plist --entitlements /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app36"9C4C4C36-DE60-4E91-86BA-37AEA4F34217-
+
+CCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLAppDelegate.o /Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343197903.202402
+e343197903.456630
+r1
+xCompileC
+xbuild/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLAppDelegate.o
+x/Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m399d34cfc874b441^5c3b75cfc874b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m0000000000000000^2519"CompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLAppDelegate.o Timelapse/TLAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/briancollins/Projects/Timelapse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-generated-files.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-own-target-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-all-target-headers.hmap -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-project-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/include -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources/armv7 -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources -F/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos -include /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch -MMD -MT dependencies -MF /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLAppDelegate.d -c /Users/briancollins/Projects/Timelapse/Timelapse/TLAppDelegate.m -o /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLAppDelegate.o36"64C2C26C-FEE1-40C1-9CC3-2AFAFB836ACA-
+
+CCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLCaptureController.o /Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343197903.205426
+e343197903.443212
+r1
+xCompileC
+xbuild/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLCaptureController.o
+x/Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.ma9fb34cfc874b441^8ba471cfc874b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.m0000000000000000^2549"CompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLCaptureController.o Timelapse/TLCaptureController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/briancollins/Projects/Timelapse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-generated-files.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-own-target-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-all-target-headers.hmap -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-project-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/include -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources/armv7 -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources -F/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos -include /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch -MMD -MT dependencies -MF /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLCaptureController.d -c /Users/briancollins/Projects/Timelapse/Timelapse/TLCaptureController.m -o /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLCaptureController.o36"659E0038-6645-417E-82F8-6072B670EAAA-
+
+CCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLMainViewController.o /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343197903.205364
+e343197903.456851
+r1
+xCompileC
+xbuild/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLMainViewController.o
+x/Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m40fc34cfc874b441^dffa74cfc874b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m0000000000000000^2554"CompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLMainViewController.o Timelapse/TLMainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/briancollins/Projects/Timelapse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-generated-files.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-own-target-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-all-target-headers.hmap -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-project-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/include -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources/armv7 -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources -F/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos -include /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch -MMD -MT dependencies -MF /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLMainViewController.d -c /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.m -o /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/TLMainViewController.o36"40B6506E-2E95-438F-B4B9-CDAECCC77985-
+
+CCompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/main.o /Users/briancollins/Projects/Timelapse/Timelapse/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343197903.202224
+e343197903.441580
+r1
+xCompileC
+xbuild/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/main.o
+x/Users/briancollins/Projects/Timelapse/Timelapse/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/briancollins/Projects/Timelapse/Timelapse/main.m069d34cfc874b441^881271cfc874b441^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/main.m0000000000000000^2474"CompileC build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/main.o Timelapse/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/briancollins/Projects/Timelapse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-generated-files.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-own-target-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-all-target-headers.hmap -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-project-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/include -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources/armv7 -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources -F/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos -include /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch -MMD -MT dependencies -MF /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/main.d -c /Users/briancollins/Projects/Timelapse/Timelapse/main.m -o /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/main.o36"38CE200B-6661-44B1-9319-C2B31BEC985D-
+
+CCompileXIB /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.xib
+s343197903.642152
+e343197904.234694
+r1
+xCompileXIB
+x/Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compiling /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.xibde77a4cfc874b441^b6143cd0c874b441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.xib0000000000000000^678"CompileXIB Timelapse/TLMainViewController.xib    cd /Users/briancollins/Projects/Timelapse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/TLMainViewController.nib /Users/briancollins/Projects/Timelapse/Timelapse/TLMainViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"E8F5E72E-680A-4878-994C-F68B6D4E2F5E-
+
+CCopyStringsFile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/en.lproj/InfoPlist.strings Timelapse/en.lproj/InfoPlist.strings
+s343197903.641983
+e343197903.656685
+r1
+xCopyStringsFile
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/en.lproj/InfoPlist.strings
+xTimelapse/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Timelapse/en.lproj/InfoPlist.strings486ba4cfc874b441^d61ca8cfc874b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/en.lproj/InfoPlist.strings0000000000000000^498"CopyStringsFile build/Debug-iphoneos/Timelapse.app/en.lproj/InfoPlist.strings Timelapse/en.lproj/InfoPlist.strings    cd /Users/briancollins/Projects/Timelapse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/en.lproj -- Timelapse/en.lproj/InfoPlist.strings36"DBD720B7-1FB0-43B4-A5B8-45EDDF60C7A4-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Timelapse.app/ResourceRules.plist
+s343197902.888723
+e343197902.892402
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Timelapse.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/Timelapse.app/ResourceRules.plistc894e3cec874b441^2577e4cec874b441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/ResourceRules.plist0000003d81f8f041^602"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/Timelapse.app/ResourceRules.plist    cd /Users/briancollins/Projects/Timelapse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app36"721BD732-0F69-46B6-A322-8AE0A6C276DD-
+
+CGenerateDSYMFile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app.dSYM /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse
+s343197903.598313
+e343197903.629099
+r1
+xGenerateDSYMFile
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app.dSYM
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Generating /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app.dSYMfc3999cfc874b441^bf0da1cfc874b441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app.dSYM0000003d81f8f041^470"GenerateDSYMFile build/Debug-iphoneos/Timelapse.app.dSYM build/Debug-iphoneos/Timelapse.app/Timelapse    cd /Users/briancollins/Projects/Timelapse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse -o /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app.dSYM36"FE3B5B2E-8601-4246-A233-5B11A0B62B13-
+
+CLd /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse normal armv7
+s343197903.463816
+e343197903.590846
+r1
+xLd
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Link /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse03ce76cfc874b441^964397cfc874b441^---0#0#0#--968"Ld build/Debug-iphoneos/Timelapse.app/Timelapse normal armv7    cd /Users/briancollins/Projects/Timelapse    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos -F/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos -filelist /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Objects-normal/armv7/Timelapse.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=5.0 -framework CoreMedia -framework CoreVideo -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Timelapse36"42895EC5-D59A-4262-B95C-60D9BC21176B-
+
+CProcessInfoPlistFile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Info.plist Timelapse/Timelapse-Info.plist
+s343197902.888729
+e343197902.891645
+r1
+xProcessInfoPlistFile
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Info.plist
+xTimelapse/Timelapse-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process Timelapse/Timelapse-Info.plist8a93e3cec874b441^0648e4cec874b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/Timelapse-Info.plist0000000000000000^678"ProcessInfoPlistFile build/Debug-iphoneos/Timelapse.app/Info.plist Timelapse/Timelapse-Info.plist    cd /Users/briancollins/Projects/Timelapse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Timelapse/Timelapse-Info.plist -genpkginfo /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/ResourceRules.plist -o /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/Info.plist36"231D7BC0-1759-46D8-BED9-E15724848D92-
+
+CProcessPCH /Users/briancollins/Library/Developer/Xcode/DerivedData/Timelapse-ctdhyqrpfaxjlmhfxfmikmqtzlkr/Index/PrecompiledHeaders/Timelapse-Prefix-ecxwjezznbfmlwbmsaljvbhwqnnz_ast/Timelapse-Prefix.pch.pth Timelapse/Timelapse-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch.pth Timelapse/Timelapse-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343197902.905554
+e343197903.195085
+r1
+xProcessPCH
+x/var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch.pth
+xTimelapse/Timelapse-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile Timelapse/Timelapse-Prefix.pche5f2e7cec874b441^e5f031cfc874b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/briancollins/Projects/Timelapse/Timelapse/Timelapse-Prefix.pch0000000000000000^2513"ProcessPCH /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch.pth Timelapse/Timelapse-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/briancollins/Projects/Timelapse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-generated-files.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-own-target-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-all-target-headers.hmap -iquote /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse-project-headers.hmap -I/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/include -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources/armv7 -I/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/DerivedSources -F/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos -c /Users/briancollins/Projects/Timelapse/Timelapse/Timelapse-Prefix.pch -o /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bs/mlw9kgd12bg_2qk13qsjr1gw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timelapse-Prefix-axgycsnxhzyofidtgodheiwxwxdd/Timelapse-Prefix.pch.d36"3ED8912C-EB9F-4634-B575-80B187417FEC-
+
+CProcessProductPackaging "/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision" /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision
+s343197904.254799
+e343197904.257907
+r1
+xProcessProductPackaging
+x/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging "/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision" build/Debug-iphoneos/Timelapse.app/embedded.mobileprovisionc34a41d0c874b441^070c42d0c874b441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision0000000000000000^628"ProcessProductPackaging "/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision" build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision    cd /Users/briancollins/Projects/Timelapse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/briancollins/Library/MobileDevice/Provisioning Profiles/A2A5EF60-30DE-42D8-A27A-EC884760333F.mobileprovision" -o /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app/embedded.mobileprovision36"331B9BFB-B5F2-44AB-A895-EC4BAB5CA15A-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent
+s343197904.281527
+e343197904.285524
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent922048d0c874b441^8f1849d0c874b441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent0000003d81f8f041^614"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent    cd /Users/briancollins/Projects/Timelapse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/briancollins/Projects/Timelapse/build/Timelapse.build/Debug-iphoneos/Timelapse.build/Timelapse.xcent36"BCE12D62-EC79-4234-BBFE-58EFE24E173A-
+
+CTouch /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app
+s343197904.265884
+e343197904.273449
+r1
+xTouch
+x/Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.appac1e44d0c874b441^040146d0c874b441^---0#0#0#--307"Touch build/Debug-iphoneos/Timelapse.app    cd /Users/briancollins/Projects/Timelapse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/briancollins/Projects/Timelapse/build/Debug-iphoneos/Timelapse.app36"FD8F7060-26BE-4238-BA37-F5EF0AE56822-
+

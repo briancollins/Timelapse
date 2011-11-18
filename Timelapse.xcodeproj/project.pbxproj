@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1BBD3E1474B9F2009788B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BBD3D1474B9F2009788B2 /* UIKit.framework */; };
+		3B1BBD401474B9F2009788B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BBD3F1474B9F2009788B2 /* Foundation.framework */; };
+		3B1BBD421474B9F2009788B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BBD411474B9F2009788B2 /* CoreGraphics.framework */; };
+		3B1BBD481474B9F2009788B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B1BBD461474B9F2009788B2 /* InfoPlist.strings */; };
+		3B1BBD4A1474B9F2009788B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BBD491474B9F2009788B2 /* main.m */; };
+		3B1BBD4E1474B9F2009788B2 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BBD4D1474B9F2009788B2 /* TLAppDelegate.m */; };
+		3B1BBD511474B9F2009788B2 /* TLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BBD501474B9F2009788B2 /* TLMainViewController.m */; };
+		3B1BBD611474BBBA009788B2 /* TLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1BBD601474BBBA009788B2 /* TLMainViewController.xib */; };
+		3B1BBD641474BE7A009788B2 /* TLCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BBD631474BE79009788B2 /* TLCaptureController.m */; };
+		3B1BBD661474C12F009788B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BBD651474C12F009788B2 /* AVFoundation.framework */; };
+		3B1BBD681474C3E8009788B2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BBD671474C3E8009788B2 /* CoreVideo.framework */; };
+		3B1BBD6A1474C84E009788B2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BBD691474C84E009788B2 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B1BBD391474B9F2009788B2 /* Timelapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timelapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1BBD3D1474B9F2009788B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B1BBD3F1474B9F2009788B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B1BBD411474B9F2009788B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B1BBD451474B9F2009788B2 /* Timelapse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timelapse-Info.plist"; sourceTree = "<group>"; };
+		3B1BBD471474B9F2009788B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B1BBD491474B9F2009788B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B1BBD4B1474B9F2009788B2 /* Timelapse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timelapse-Prefix.pch"; sourceTree = "<group>"; };
+		3B1BBD4C1474B9F2009788B2 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		3B1BBD4D1474B9F2009788B2 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		3B1BBD4F1474B9F2009788B2 /* TLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMainViewController.h; sourceTree = "<group>"; };
+		3B1BBD501474B9F2009788B2 /* TLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMainViewController.m; sourceTree = "<group>"; };
+		3B1BBD601474BBBA009788B2 /* TLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLMainViewController.xib; sourceTree = "<group>"; };
+		3B1BBD621474BE79009788B2 /* TLCaptureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCaptureController.h; sourceTree = "<group>"; };
+		3B1BBD631474BE79009788B2 /* TLCaptureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCaptureController.m; sourceTree = "<group>"; };
+		3B1BBD651474C12F009788B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3B1BBD671474C3E8009788B2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3B1BBD691474C84E009788B2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1BBD361474B9F2009788B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1BBD6A1474C84E009788B2 /* CoreMedia.framework in Frameworks */,
+				3B1BBD681474C3E8009788B2 /* CoreVideo.framework in Frameworks */,
+				3B1BBD661474C12F009788B2 /* AVFoundation.framework in Frameworks */,
+				3B1BBD3E1474B9F2009788B2 /* UIKit.framework in Frameworks */,
+				3B1BBD401474B9F2009788B2 /* Foundation.framework in Frameworks */,
+				3B1BBD421474B9F2009788B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1BBD2E1474B9F2009788B2 = {
+			isa = PBXGroup;
+			children = (
+				3B1BBD431474B9F2009788B2 /* Timelapse */,
+				3B1BBD3C1474B9F2009788B2 /* Frameworks */,
+				3B1BBD3A1474B9F2009788B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1BBD3A1474B9F2009788B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1BBD391474B9F2009788B2 /* Timelapse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1BBD3C1474B9F2009788B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B1BBD691474C84E009788B2 /* CoreMedia.framework */,
+				3B1BBD671474C3E8009788B2 /* CoreVideo.framework */,
+				3B1BBD651474C12F009788B2 /* AVFoundation.framework */,
+				3B1BBD3D1474B9F2009788B2 /* UIKit.framework */,
+				3B1BBD3F1474B9F2009788B2 /* Foundation.framework */,
+				3B1BBD411474B9F2009788B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B1BBD431474B9F2009788B2 /* Timelapse */ = {
+			isa = PBXGroup;
+			children = (
+				3B1BBD4C1474B9F2009788B2 /* TLAppDelegate.h */,
+				3B1BBD4D1474B9F2009788B2 /* TLAppDelegate.m */,
+				3B1BBD4F1474B9F2009788B2 /* TLMainViewController.h */,
+				3B1BBD501474B9F2009788B2 /* TLMainViewController.m */,
+				3B1BBD621474BE79009788B2 /* TLCaptureController.h */,
+				3B1BBD631474BE79009788B2 /* TLCaptureController.m */,
+				3B1BBD601474BBBA009788B2 /* TLMainViewController.xib */,
+				3B1BBD441474B9F2009788B2 /* Supporting Files */,
+			);
+			path = Timelapse;
+			sourceTree = "<group>";
+		};
+		3B1BBD441474B9F2009788B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1BBD451474B9F2009788B2 /* Timelapse-Info.plist */,
+				3B1BBD461474B9F2009788B2 /* InfoPlist.strings */,
+				3B1BBD491474B9F2009788B2 /* main.m */,
+				3B1BBD4B1474B9F2009788B2 /* Timelapse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1BBD381474B9F2009788B2 /* Timelapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1BBD5D1474B9F2009788B2 /* Build configuration list for PBXNativeTarget "Timelapse" */;
+			buildPhases = (
+				3B1BBD351474B9F2009788B2 /* Sources */,
+				3B1BBD361474B9F2009788B2 /* Frameworks */,
+				3B1BBD371474B9F2009788B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timelapse;
+			productName = Timelapse;
+			productReference = 3B1BBD391474B9F2009788B2 /* Timelapse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1BBD301474B9F2009788B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3B1BBD331474B9F2009788B2 /* Build configuration list for PBXProject "Timelapse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B1BBD2E1474B9F2009788B2;
+			productRefGroup = 3B1BBD3A1474B9F2009788B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1BBD381474B9F2009788B2 /* Timelapse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1BBD371474B9F2009788B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1BBD481474B9F2009788B2 /* InfoPlist.strings in Resources */,
+				3B1BBD611474BBBA009788B2 /* TLMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1BBD351474B9F2009788B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1BBD4A1474B9F2009788B2 /* main.m in Sources */,
+				3B1BBD4E1474B9F2009788B2 /* TLAppDelegate.m in Sources */,
+				3B1BBD511474B9F2009788B2 /* TLMainViewController.m in Sources */,
+				3B1BBD641474BE7A009788B2 /* TLCaptureController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B1BBD461474B9F2009788B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1BBD471474B9F2009788B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1BBD5B1474B9F2009788B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B1BBD5C1474B9F2009788B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1BBD5E1474B9F2009788B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timelapse/Timelapse-Prefix.pch";
+				INFOPLIST_FILE = "Timelapse/Timelapse-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B1BBD5F1474B9F2009788B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timelapse/Timelapse-Prefix.pch";
+				INFOPLIST_FILE = "Timelapse/Timelapse-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1BBD331474B9F2009788B2 /* Build configuration list for PBXProject "Timelapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1BBD5B1474B9F2009788B2 /* Debug */,
+				3B1BBD5C1474B9F2009788B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1BBD5D1474B9F2009788B2 /* Build configuration list for PBXNativeTarget "Timelapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1BBD5E1474B9F2009788B2 /* Debug */,
+				3B1BBD5F1474B9F2009788B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1BBD301474B9F2009788B2 /* Project object */;
+}
